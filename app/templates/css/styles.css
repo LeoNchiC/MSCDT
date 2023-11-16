@@ -1,0 +1,71 @@
+body {
+        font-family: Arial,Qanelas Soft DEMO, sans-serif; background-color: gray }
+
+.name {
+        
+    font-family: Arial;text-align: center; color: black; font-size:30px; 
+    margin-top: -140;
+    position: relative;
+     z-index: 10;
+
+}
+
+.name2 {
+
+        font-family: “Qanelas Soft DEMO”, sans-serif; text-align: center; color: black; font-size:26px; font-weight: lighter;
+        margin-top: -150;
+        margin-left: -815;
+        position: relative;
+        z-index: 10;
+
+}
+
+.logo{
+        background-image: url('mscdtmin.png'); 
+        width: 218px;
+        height: 236px;
+        margin: 10px;
+        position: relative;
+         z-index: 10;   
+        margin-right: 100px;
+}
+
+.rec1{
+    width:1920px;
+        height:300px;
+        background:white;
+        opacity: 20%;
+        position: absolute;
+        margin-top: -280px;
+        margin-left: -10px;
+}
+.rec2{
+    width:300px;
+        height:1080px;
+        background:white;
+        opacity: 20%;
+        position: absolute;
+        margin-top: -300px;
+        margin-left: -10px;
+}
+
+.navbar {
+
+        font-family: Arial;text-align: center; color: white; font-size:30px;
+    margin-top: 250px;
+    margin-left: -1600;
+    position: relative;
+    z-index: 9;
+    display: flex;
+    gap:50px;
+    flex-direction: column;
+    font-weight: bold;
+
+}
+
+
+
+.news {
+        background-color: #f2f2f2; padding: 10px;
+}
+/* #FAE3A7*/
