@@ -1,0 +1,93 @@
+@font-face {
+        font-family: 'Qanelas-Bold';
+        src: url('fonts/QanelasSoftDEMO-ExtraBold.woff') format('woff')
+      }
+@font-face {
+        font-family: 'Qanelas-Light';
+        src: url('fonts/QanelasSoftDEMO-UltraLight.woff') format('woff')
+      }      
+
+
+body {
+        font-family: Qanelas-Bold, Qanelas-Light;
+         background-color: gray }
+
+.name {
+        
+    font-family: Qanelas-Bold; text-align: center; color: black; font-size:30px; 
+    margin-top: -140;
+    position: relative;
+     z-index: 10;
+
+}
+
+.name2 {
+
+        font-family: Qanelas-Light, sans-serif; text-align: center; color: black; font-size:26px; font-weight: lighter;
+        margin-top: -150;
+        margin-left: -805;
+        position: relative;
+        z-index: 10;
+
+}
+
+.logo{
+        background-image: url('mscdtmin.png'); 
+        width: 218px;
+        height: 236px;
+        position: relative;
+         z-index: 10;
+        left: 30px;
+}
+
+.rec1{
+    width:1920px;
+        height:300px;
+        background:white;
+        opacity: 20%;
+        position: absolute;
+        margin-top: -280px;
+        margin-left: -10px;
+        border-radius: 0px 0px 57px 0px;
+}
+.rec2{
+    width:300px;
+        height:1080px;
+        background:white;
+        opacity: 20%;
+        position: absolute;
+        margin-top: -300px;
+        margin-left: -10px;
+        border-radius: 0px 0px 57px 0px;
+}
+
+.navbar {
+
+        font-family: Arial;text-align: center; color: white; font-size:30px;
+    margin-top: 250px;
+    margin-left: -1600;
+    position: relative;
+    z-index: 9;
+    display: flex;      
+    gap:50px;
+    flex-direction: column;
+    font-weight: bold;
+
+}
+
+
+
+.news {
+        background-size: cover;
+        background-position: center;
+        width:530px;
+        height: 430px;
+        background:white;
+        position: relative;
+        z-index: 11;
+        margin-top: -350px;
+        margin-left: 1200px;
+        border-radius: 38px 38px 38px 38px;
+        
+}
+/* #FAE3A7*/
