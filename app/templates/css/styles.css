@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
         font-family: 'Qanelas-Bold';
         src: url('fonts/QanelasSoftDEMO-ExtraBold.woff') format('woff')
@@ -15,6 +16,14 @@ body {
 .name {
         
     font-family: Qanelas-Bold; text-align: center; color: black; font-size:30px; 
+=======
+body {
+        font-family: Arial,Qanelas Soft DEMO, sans-serif; background-color: gray }
+
+.name {
+        
+    font-family: Arial;text-align: center; color: black; font-size:30px; 
+>>>>>>> 0612a8afeb10ca2963310d7e0c83a477008cb17c
     margin-top: -140;
     position: relative;
      z-index: 10;
@@ -23,9 +32,15 @@ body {
 
 .name2 {
 
+<<<<<<< HEAD
         font-family: Qanelas-Light, sans-serif; text-align: center; color: black; font-size:26px; font-weight: lighter;
         margin-top: -150;
         margin-left: -805;
+=======
+        font-family: “Qanelas Soft DEMO”, sans-serif; text-align: center; color: black; font-size:26px; font-weight: lighter;
+        margin-top: -150;
+        margin-left: -815;
+>>>>>>> 0612a8afeb10ca2963310d7e0c83a477008cb17c
         position: relative;
         z-index: 10;
 
@@ -35,9 +50,16 @@ body {
         background-image: url('mscdtmin.png'); 
         width: 218px;
         height: 236px;
+<<<<<<< HEAD
         position: relative;
          z-index: 10;
         left: 30px;
+=======
+        margin: 10px;
+        position: relative;
+         z-index: 10;   
+        margin-right: 100px;
+>>>>>>> 0612a8afeb10ca2963310d7e0c83a477008cb17c
 }
 
 .rec1{
@@ -48,7 +70,10 @@ body {
         position: absolute;
         margin-top: -280px;
         margin-left: -10px;
+<<<<<<< HEAD
         border-radius: 0px 0px 57px 0px;
+=======
+>>>>>>> 0612a8afeb10ca2963310d7e0c83a477008cb17c
 }
 .rec2{
     width:300px;
@@ -58,7 +83,10 @@ body {
         position: absolute;
         margin-top: -300px;
         margin-left: -10px;
+<<<<<<< HEAD
         border-radius: 0px 0px 57px 0px;
+=======
+>>>>>>> 0612a8afeb10ca2963310d7e0c83a477008cb17c
 }
 
 .navbar {
@@ -68,7 +96,11 @@ body {
     margin-left: -1600;
     position: relative;
     z-index: 9;
+<<<<<<< HEAD
     display: flex;      
+=======
+    display: flex;
+>>>>>>> 0612a8afeb10ca2963310d7e0c83a477008cb17c
     gap:50px;
     flex-direction: column;
     font-weight: bold;
@@ -78,6 +110,7 @@ body {
 
 
 .news {
+<<<<<<< HEAD
         background-size: cover;
         background-position: center;
         width:530px;
@@ -89,5 +122,8 @@ body {
         margin-left: 1200px;
         border-radius: 38px 38px 38px 38px;
         
+=======
+        background-color: #f2f2f2; padding: 10px;
+>>>>>>> 0612a8afeb10ca2963310d7e0c83a477008cb17c
 }
 /* #FAE3A7*/
