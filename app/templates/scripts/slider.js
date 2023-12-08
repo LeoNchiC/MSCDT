@@ -1,8 +1,8 @@
-var images = ['images/image1.jpg', 'image2.jpg', 'image3.jpg'];
+var images = ['imeasges/image1.jpg'];
 var index = 0;
 
 function showImage() {
-    var divElement = document.getElementById('imageContainer');
+    var divElement = document.querySelector('.news');
     divElement.style.backgroundImage = 'url(' + images[index] + ')';
 }
 
@@ -14,15 +14,7 @@ function nextImage() {
     showImage();
 }
 
-function prevImage() {
-    index--;
-    if (index < 0) {
-        index = images.length - 1;
-    }
+window.onload = function() {
     showImage();
-}
-
-document.getElementById('next').addEventListener('click', nextImage);
-document.getElementById('prev').addEventListener('click', prevImage);
-
-window.onload = showImage;
+    setInterval(nextImage, 5000); 
+};

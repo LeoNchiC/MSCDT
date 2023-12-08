@@ -1,0 +1,56 @@
+* {
+        margin: 0;       
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+      }
+      
+      @font-face {
+        font-family: 'Qanelas-Bold';
+        src: url('fonts/QanelasSoftDEMO-ExtraBold.woff') format('woff')
+      }
+      @font-face {
+        font-family: 'Qanelas-Light';
+        src: url('fonts/QanelasSoftDEMO-UltraLight.woff') format('woff')
+      }      
+      
+      body {
+        padding: 20px;
+        font-family: Qanelas-Bold, Qanelas-Light;
+      }
+      
+      .container {
+        display: flex;
+        height: 100vh;
+      }
+      
+      .block {
+        font-family:  Qanelas-Light, sans-serif;
+        font-size:50px;
+        flex-grow: 1;
+        transition: flex-grow 0.5s;
+        padding: 50px;
+        text-align: center;
+        color: white;
+        height: 100vh;
+        border: 10px solid;
+      }
+      
+      #block1 {
+        background-color: gray;
+        border-color: gray;
+      }
+      
+      #block2 {
+        background-color: darkgray;
+        border-color: darkgray;
+      }
+      
+      .rectangle {
+        height: 10px;
+        background-color: white;
+        margin-top: 20px;
+        transition: all 0.5s;
+      }
+      
+      
