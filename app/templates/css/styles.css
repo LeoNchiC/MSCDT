@@ -1,26 +1,27 @@
 @font-face {
         font-family: 'Qanelas-Bold';
         src: url('fonts/QanelasSoftDEMO-ExtraBold.woff') format('woff')
-      }
+}
 @font-face {
         font-family: 'Qanelas-Light';
         src: url('fonts/QanelasSoftDEMO-UltraLight.woff') format('woff')
-      }      
+}      
 
 
 body {
         background-image: url('background.png');
         font-family: Qanelas-Bold, Qanelas-Light;
-         background-color: gray 
+        background-color: gray;
+        overflow: hidden;
         }
 
 .name {
         
-    font-family: Qanelas-Bold; text-align: center; color: black; font-size:30px; 
-    top: -150;
-    right: -120;
-    position: relative;
-     z-index: 10;
+font-family: Qanelas-Bold; text-align: center; color: black; font-size:30px; 
+top: -150;
+right: -120;
+position: relative;
+z-index: 10;
 
 }
 
@@ -39,12 +40,12 @@ body {
         width: 218px;
         height: 236px;
         position: relative;
-         z-index: 10;
+        z-index: 10;
         left: 30px;
 }
 
 .rec1{
-    width:1920px;
+        width:1920px;
         height:300px;
         background:white;
         opacity: 50%;
@@ -54,7 +55,7 @@ body {
         border-radius: 0px 0px 57px 0px;
 }
 .rec2{
-    width:300px;
+        width:300px;
         height:1080px;
         background:white;
         opacity: 50%;
@@ -67,31 +68,19 @@ body {
 .navbar * {
         text-decoration: none;
         font-family: Qanelas-Bold;text-align: center; color: black; font-size:40px;
-    top: 100px;
-    left: -800px;
-    position: relative;
-    z-index: 9;
-    display: flex;      
-    gap:10px;
-    flex-direction:column;
-    font-weight: bold;
-    line-height: 225%;
+top: 100px;
+left: -800px;
+position: relative;
+z-index: 9;
+display: flex;      
+gap:10px;
+flex-direction:column;
+font-weight: bold;
+line-height: 225%;
 
 }
 
 
 
-.news {
-        background-size: cover;
-        background-position: center;
-        width:530px;
-        height: 430px;
-        background:white;
-        position: relative;
-        z-index: 11;
-        margin-top: -350px;
-        margin-left: 1200px;
-        border-radius: 38px 38px 38px 38px;
-        
-}
+
 /* #FAE3A7*/
